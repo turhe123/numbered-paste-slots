@@ -1,5 +1,7 @@
 # NumberedPasteSlots
 
+**🌐 Website:** [turhe123.github.io/numbered-paste-slots](https://turhe123.github.io/numbered-paste-slots/)
+
 **Ten permanent paste slots you fill once and fire anywhere with a hotkey plus a number.**
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,21 @@ Most clipboard tools are built around history. But a lot of what we paste never 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="NumberedPasteSlots menu bar menu showing ten numbered slots" width="720"></p>
+
+<p align="center"><em>The menu bar menu lists all ten numbered slots with their ⌃⌥ + digit paste hotkeys, plus capture, overview, editing and settings.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-overview.png" alt="Slots Overview panel with a grid of ten numbered slots" width="560"></p>
+
+<p align="center"><em>The floating Slots Overview shows every slot in a grid click one to paste it into the app you were using.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-edit-slots.png" alt="Edit Slots window with labeled text slots" width="560"></p>
+
+<p align="center"><em>The Edit Slots window lets you label each slot, edit its text, toggle plain-text only, and copy, clear or set an image.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-settings.png" alt="NumberedPasteSlots Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you pick paste and capture modifiers, tune feedback and clipboard behavior, and grant Accessibility access.</em></p>
 
 ## Install
 

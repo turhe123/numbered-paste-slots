@@ -1,0 +1,6 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar menu lists all ten numbered slots with their ⌃⌥ + digit paste hotkeys, plus capture, overview, editing and settings.","alt":"NumberedPasteSlots menu bar menu showing ten numbered slots"},
+  {"file":"02-overview.png","caption":"The floating Slots Overview shows every slot in a grid; click one to paste it into the app you were using.","alt":"Slots Overview panel with a grid of ten numbered slots"},
+  {"file":"03-edit-slots.png","caption":"The Edit Slots window lets you label each slot, edit its text, toggle plain-text only, and copy, clear or set an image.","alt":"Edit Slots window with labeled text slots"},
+  {"file":"04-settings.png","caption":"Settings let you pick paste and capture modifiers, tune feedback and clipboard behavior, and grant Accessibility access.","alt":"NumberedPasteSlots Settings window"}
+]

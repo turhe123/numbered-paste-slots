@@ -1,0 +1,24 @@
+{
+  "seo_title": "Numbered paste slots for macOS",
+  "seo_description": "Ten permanent paste slots for macOS. Fill each once, then paste text or images anywhere with a hotkey plus a number. Free, open source, fully offline.",
+  "hero_title_line1": "Ten slots.",
+  "hero_title_accent": "One hotkey each.",
+  "hero_sub": "Save the text and images you paste all the time into ten fixed slots, then fire any of them into the frontmost app with Control+Option plus a digit. Free, native and offline.",
+  "features_title": "Fixed slots, not history.",
+  "features_sub": "Everything lives in the menu bar and a few global hotkeys, so your most-used snippets are always one keystroke away.",
+  "features": [
+    {"icon": "keyboard", "title": "Paste with a hotkey", "desc": "Press Control+Option and a digit (1 to 9, then 0) to paste that slot into the frontmost app. Hotkeys use digit-row key codes, so they work across keyboard layouts."},
+    {"icon": "clipboard", "title": "Capture the clipboard instantly", "desc": "Press Control+Option+Shift and a digit to save whatever you just copied into that slot. Text is preferred, with PNG or TIFF images as the fallback."},
+    {"icon": "image", "title": "Text and images", "desc": "Each slot holds either text or an image, with an optional label. A per-slot plain-text option strips rich-text formatting from captured text."},
+    {"icon": "window", "title": "Edit and rearrange slots", "desc": "Edit Slots lets you label and edit every slot, and drag a digit badge onto another row to swap them. Drop image files straight onto an image slot."},
+    {"icon": "sliders", "title": "Configurable and careful", "desc": "Choose from nine modifier presets per hotkey, with warnings for identical combinations and known macOS shortcuts. It asks before replacing a filled slot, unless you turn that off."},
+    {"icon": "eye", "title": "Menu bar and overview panel", "desc": "Lives in the menu bar with no Dock icon. A floating overview shows all ten slots in a grid, and a click pastes into the app you were using."}
+  ],
+  "permissions_step": "Grant Accessibility access in System Settings → Privacy & Security → Accessibility so the app can send Command+V to the frontmost app.",
+  "faq": [
+    {"q": "Is NumberedPasteSlots really free and open source?", "a": "Yes. It is released under the MIT license, with no accounts, no servers and no analytics. If it saves you time you can optionally support development through the Support button, but nothing is locked behind it."},
+    {"q": "What permissions does it need?", "a": "Only Accessibility, which is required to send Command+V to the app you are using. Without it, the slot is still copied to the clipboard and a message tells you to press Command+V yourself. It does not request Screen Recording, Microphone, Camera or Contacts."},
+    {"q": "Where is my data stored?", "a": "Locally on your Mac in ~/Library/Application Support/NumberedPasteSlots. Text and slot metadata are kept in a JSON file and images are saved as PNG files. Nothing is sent anywhere."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to run it, or build it yourself from source with Xcode and XcodeGen."}
+  ]
+}
